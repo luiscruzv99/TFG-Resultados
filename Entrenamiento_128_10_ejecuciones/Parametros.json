@@ -1,0 +1,1 @@
+{"Tam. entrenamiento": 8010, "Tam. validacion": 99, "Tam. test": 890, "Tam. batch": 128, "Modo de operacion": 1, "Dispositivos": ["cuda:0", "cuda:1"], "Tam. muestras": [148, 197]}
