@@ -1,0 +1,29 @@
+==21754== NVPROF is profiling process 21754, command: python3 benchmark.py 7
+==21764== Warning: Child processes are not profiled. Use option --profile-child-processes to profile them.
+
+==21754== Profiling application: python3 benchmark.py 7
+==21754== Profiling result:
+No kernels were profiled.
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+      API calls:   70.34%  5.0979ms       202  25.237us     322ns  1.6942ms  cuDeviceGetAttribute
+                   27.25%  1.9748ms         2  987.40us  980.65us  994.15us  cuDeviceTotalMem
+                    1.83%  132.88us         2  66.437us  53.066us  79.809us  cuDeviceGetName
+                    0.31%  22.641us         4  5.6600us  2.6000us  12.173us  cuDeviceGetPCIBusId
+                    0.09%  6.4720us         3  2.1570us  1.2270us  3.6000us  cuDeviceGetCount
+                    0.08%  5.8150us         4  1.4530us     680ns  2.4200us  cuDeviceGet
+                    0.07%  4.8770us         1  4.8770us  4.8770us  4.8770us  cudaGetDeviceCount
+                    0.03%  1.9960us         2     998ns     826ns  1.1700us  cuDeviceGetUuid
+
+==21754== System profiling result:
+Device "Tesla K20m (0)"
+                         Count         Avg         Min         Max
+      SM Clock (MHz)     45345      703.08      324.00      705.00
+  Memory Clock (MHz)     45345     2588.51      324.00     2600.00
+     Temperature (C)     90690       62.74       40.00       65.00
+          Power (mW)     90690    26123.75    16822.00   149318.00
+Device "Tesla K20m (1)"
+                         Count         Avg         Min         Max
+      SM Clock (MHz)     45345      703.10      324.00      705.00
+  Memory Clock (MHz)     45345     2588.66      324.00     2600.00
+     Temperature (C)     90690       60.98       38.00       63.00
+          Power (mW)     90690    28198.26    16529.00   152719.00
