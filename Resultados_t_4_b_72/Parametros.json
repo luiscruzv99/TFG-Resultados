@@ -1,1 +1,0 @@
-{"Tam. entrenamiento": 0.7, "Tam. validacion": 0.1, "Tam. batch": 72, "Tam. test": 0.2, "Modo de operacion": 1, "Dispositivos": ["cuda:0", "cuda:1"]}

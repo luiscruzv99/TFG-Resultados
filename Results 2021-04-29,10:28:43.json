@@ -1,1 +1,0 @@
-{"Tam. entrenamiento": 3500, "Tam. validacion": 500, "Tam. batch": 24, "Factor reduccion CPU": 8, "Dispositivos": ["cuda:0", "cuda:1"]}
