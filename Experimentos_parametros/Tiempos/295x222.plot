@@ -1,6 +1,6 @@
 set output "tiempos_295x222.png"
 set datafile separator ','
-set terminal png size 1920,1080 font 'SegoeUI,20'
+set terminal png size 1200,1200 font 'SegoeUI,20'
 
 set style line 1 lt rgb "red" lw 3 pt 5
 set style line 2 lt rgb "blue" lw 3 pt 5
