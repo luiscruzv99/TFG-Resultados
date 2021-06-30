@@ -13,8 +13,8 @@ set style line 6 lt rgb "purple" lw 2 pt 5
 
 set multiplot
 
-set title "Consumo (W)" font ", 32"
-set xlabel "Iteraciones" font ", 28"
+set title "Uso de energía" font ", 32"
+set xlabel "Mediciones" font ", 28"
 set ylabel "Consumo (W)" font ", 28"
 set yrange [0:250]
 

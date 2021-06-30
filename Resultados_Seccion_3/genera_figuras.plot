@@ -28,7 +28,7 @@ set style line 2 lt rgb "blue" lw 1 pt 5
 
 set title "Tiempos de entrenamiento totales" font ",32"
 set ylabel "Tiempo de entrenamiento (seg)" font ", 28"
-set xtics ("Hibrido" 1, "GPU" 2) font ", 26"
+set xtics ("Híbrido" 1, "GPU" 2) font ", 26"
 set xrange[0:3]
 set yrange[0:]
 set style fill solid 0.6 border lt -1

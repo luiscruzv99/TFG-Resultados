@@ -14,6 +14,7 @@ set style line 1 lt rgb "red" lw 1 pt 5
 set style line 2 lt rgb "blue" lw 1 pt 5
 set style line 3 lt rgb "green" lw 1 pt 5
 set style line 3 lt rgb "orange" lw 1 pt 5
+unset key
 
 set ytics rotate by 45
 
@@ -58,7 +59,7 @@ rm + gap / 4.0, -0.024 + kk + gap / 4.0 + gap nohead
 set border 2+4+8
 set bmargin at screen bm + size * kk + gap
 set tmargin at screen bm + size + gap - 0.1
-set key
+unset key
 set yrange[80:90]
 set ytics 5
 replot

@@ -11,10 +11,10 @@ set style line 5 lt rgb "purple" lw 3 pt 5
 set style line 6 lt rgb "cyan" lw 3 pt 5
 
 
-set title "Evolución de las precisiones (148x112)";
-set xlabel "Iteraciones"
-set ylabel "Precision (%)"
-set yrange [0:100]
+set title "Evolución de las precisiones\n(148x112)" font ", 32"
+set xlabel "Épocas" font ", 28"
+set ylabel "Precisión (%)" font ", 28"
+set yrange [0:110]
 
 plot "148x112.csv" using 1 with lines ls 1,\
      "" using 2 with lines ls 2,\

@@ -1,0 +1,14 @@
+Parametro del programa, Valor
+Tamaño del dataset, 9000 muestras
+Numero de clases del dataset, 9 clases
+Tamaño de las muestras del dataset, 197x148 px (ByN)
+Tamaño del conjunto de entrenamiento, 7650 muestras (85\%)
+Tamaño del conjunto de validacion, 180 muestras (2\%)
+Tamaño del conjunto de test, 1170 muestras (13\%)
+Tamaño del batch, 128 muestras
+Learning rate de la red, 0.05
+Algoritmo de gradient descent, Stochastic Gradient Descent
+Numero epocas del entrenamiento, 100 epocas
+Libreria de comunicacion de procesos, NCCL
+
+
