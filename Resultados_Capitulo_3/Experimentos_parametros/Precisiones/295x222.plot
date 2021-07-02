@@ -9,7 +9,7 @@ set style line 3 lt rgb "green" lw 3 pt 5
 
 
 set title "Evolución de las precisiones\n(295x222)" font ", 32"
-set xlabel "Epocas" font ", 28"
+set xlabel "Épocas" font ", 28"
 set ylabel "Precisión (%)" font ", 28"
 set yrange [0:100]
 
