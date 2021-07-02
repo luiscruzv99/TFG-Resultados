@@ -1,0 +1,5 @@
+Experimento,Consumo CPU,Consumo GPU 0,Consumo GPU 1,Consumo total (J),Consumo total con idle (J),EDP,EDP idle
+Solo CPU,8.48E+06,1.32E+06,1.30E+06,8.48E+06,1.11E+07,86.65,103.79
+1 GPU,2.89E+05,8.79E+05,1.09E+05,1.17E+06,1.28E+06,1.00,1.00
+1 GPU Distribuido,2.90E+05,8.85E+05,1.10E+05,1.18E+06,1.29E+06,1.02,1.02
+2 GPUs,1.95E+05,4.74E+05,4.82E+05,1.15E+06,1.15E+06,0.56,0.51
